@@ -7,7 +7,7 @@ const Description = () => {
 
   const renderTypewriter = (typewriter: TypewriterClass) => {
     typewriter
-      .typeString("The Ultimate<br/>NFT Rental<br/>Protocol")
+      .typeString("LUV NFT<br/>Rental<br/>Marketplace")
       .callFunction(() => {
         setTimeout(() => {
           setTypewriterFinished(true);
@@ -32,10 +32,10 @@ const Description = () => {
     >
       <Typewriter onInit={renderTypewriter} options={typewriterOptions} />
       <h4 className="mt-[1.5vh] w-full text-mb-2xl md:mt-[2.5vh] md:text-xl">
-        The NFT Renter Protocol provides a rental solution for every renter and lender.
+        The LUV NFT Rental Protocol removes middleman fees for every renter and lender.
         <br />
         <br />
-        Explore our collateralized and non collaterlized options and find what fits you!
+        Explore our collateralized and non collaterlized options and find something you would love to rent!
       </h4>
     </div>
   );
